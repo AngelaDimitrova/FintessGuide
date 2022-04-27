@@ -2,9 +2,168 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <title>Title</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+    <style>
+        .margin-0 {
+            margin-bottom: 0 !important;
+        }
+
+        .border-radius {
+            border-radius: 9px;
+        }
+        .fw-nono{
+            font-weight: normal;
+        }
+        .bg-low{
+            background-image: linear-gradient(to right, white, #b1dece, white);
+            border: none;
+        }
+        a{
+
+        }
+    </style>
+    <script>
+        function onLoad() {
+            document.getElementById("added1").style.display = "none";
+            document.getElementById("added2").style.display = "none";
+            document.getElementById("added3").style.display = "none";
+            document.getElementById("added4").style.display = "none";
+        }
+
+        function myFunction1() {
+            var x = document.getElementById("added1");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+
+        function myFunction2() {
+            var x = document.getElementById("added2");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+
+        function myFunction3() {
+            var x = document.getElementById("added3");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+
+        function myFunction4() {
+            var x = document.getElementById("added4");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
     <title>Title</title>
 </head>
-<body>
-
+<body onload="onLoad()">
+<div class="sticky-top">
+    <nav class="margin-0 navbar navbar-expand-lg shadow-sm bg-white mb-4">
+        <div class="container">
+            <a class="navbar-brand pe-5 pe-md-1 pe-xl-0 me-5" href="/">
+                <img src="Images/fitness-guide_logo.png" alt="Logo" class="img-fluid pe-sm-5 pe-md-0" width="270">
+            </a>
+            <button class="proba navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-primary">
+                    <i class="fa fa-arrow-down"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse d-lg-flex align-items-center justify-content-end"
+                 id="navbarSupportedContent">
+                <ul class="mb-0 d-flex flex-column align-items-center justify-content-center flex-md-row justify-content-end">
+                    <li>
+                        <a class="me-4" href="index.html">Исхрана</a>
+                    </li>
+                    <li>
+                        <a class="me-4" href="Muscle%20Groups.html">Вежби</a>
+                    </li>
+                    <li>
+                        <a class="me-4" href="Quizzes.html">Квизови</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<div class="ratio ratio-21x9 mb-3">
+    <img src="Images/detailedFood.jpg" alt="recepie" class="image-fluid w-100 top-minus-40">
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-lg-7 px-4 mb-3 mb-lg-0">
+            <div class="fs-5 text-center text-light fw-bold mb-3">
+                Начин на подготовка
+            </div>
+            За подготовка на главно предјадење вкусни лазањи, потребно е најпрво во едно загреано тавче со масло да се
+            исечка ситно 1 главица кромид. Одкако ке се пропржи се додава меленото месо. Се пржи па на крај се додава
+            500 мл. доматен сос и 1 лажица зачини, малку сол и малку оригано. На крај се додават ситно сечканите печурки
+            и се пропржува уште неколку минути.
+            Потоа се подготвува бешамел сос.
+            Потребни состојки за бешамел сос се, 2 лажици маргарин се растопуват во длабоко тавче. Се додава 2 лажици
+            брашно.
+            Во тава по можност глинена или стаклен сад со поклопец се редат кори од лазањите колку да се покрие дното од
+            садот, врз редот од лазањи се додава смесата од мелено месо и бешамел сосот. И се така до крај дури да се
+            потрошат корите и филот. А на последната кора се ренда кашкавалот. Се пече во загреана рерна на 200°С,
+            половина час, додека да добие златно румена боја
+        </div>
+        <div class="col col-12 col-lg-5 px-4">
+            <div class="text-center text-light fw-bold fs-5 mb-3">
+                Дознај повеќе!
+            </div>
+            <card class="card border-radius bg-low text-center fs-6 fw-bold p-3 mb-3" onclick="myFunction1()">
+                Факт 1
+                <div id="added1" class="fw-nono">
+                    Калциумот е важен фактор во коагулацијата на крвта, па оттука неговото зголемено ниво алармира дека
+                    постои склоност кон формирање на тромби кои можат да доведат до запушување на крвните садови. Се
+                    користи во дијагноза и третман на паратироидни заболувања, хронични ренални заболувања, уролитијаза
+                    и тетанус.
+                </div>
+            </card>
+            <card class="card border-radius bg-low text-center fs-6 fw-bold p-3 mb-3" onclick="myFunction2()">
+                Факт 2
+                <div id="added2" class="fw-nono">
+                    лосос содржи (на 100 фрама):
+                    202.00 калории, 0.00 г јаглехидрати, 13.60 g маст, 19.90 g Протеини
+                </div>
+            </card>
+            <card class="card border-radius bg-low text-center fs-6 fw-bold p-3 mb-3" onclick="myFunction3()">
+                Факт 3
+                <div id="added3" class="fw-nono">
+                    лосос содржи (на 100 фрама):
+                    202.00 калории, 0.00 г јаглехидрати, 13.60 g маст, 19.90 g Протеини
+                </div>
+            </card>
+            <card class="card border-radius bg-low text-center fs-6 fw-bold p-3 mb-3" onclick="myFunction4()">
+                Факт 4
+                <div id="added4" class="fw-nono">
+                    лосос содржи (на 100 фрама):
+                    202.00 калории, 0.00 г јаглехидрати, 13.60 g маст, 19.90 g Протеини
+                </div>
+            </card>
+        </div>
+    </div>
+</div>
 </body>
 </html>

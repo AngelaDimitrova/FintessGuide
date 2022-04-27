@@ -1,3 +1,15 @@
+.position-relative{
+    position: relative;
+}
+.position-absolute{
+    position: absolute;
+}
+.card-link{
+    font-weight: normal !important;
+}
+.proba{
+    background-color: lightgray !important;
+}
 a {
     text-decoration: none;
     font-weight: bold;
@@ -27,4 +39,7 @@ ul {
 
 .text-secondary {
     color: #9cdedb !important;
+}
+.text-light{
+    color: #d1aa68 !important;
 }

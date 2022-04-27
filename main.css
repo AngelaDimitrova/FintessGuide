@@ -1,0 +1,30 @@
+a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #d1aa68;
+}
+
+a:hover {
+    color: #1b89d6;
+}
+
+a:active {
+    color: #1b89d6;
+}
+
+ul {
+    list-style: none;
+}
+
+.border-none {
+    border: 0;
+}
+
+.text-primary {
+    color: darkgray !important;
+}
+
+.text-secondary {
+    color: #9cdedb !important;
+}

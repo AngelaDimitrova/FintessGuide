@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9d875504-04f1-4f22-ae16-97247108b53f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Muscle Groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/Muscle Groups.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quizzes.html" beforeDir="false" afterPath="$PROJECT_DIR$/Quizzes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -43,7 +45,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651073331316</updated>
-      <workItem from="1651073332635" duration="16066000" />
+      <workItem from="1651073332635" duration="18076000" />
     </task>
     <servers />
   </component>
